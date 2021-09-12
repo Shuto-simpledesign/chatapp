@@ -1,0 +1,99 @@
+body {
+    background-color: #2a4073;
+    color: oldlace;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.PageBox {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+.form {
+    border:3px solid oldlace;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 600px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: inherit;
+}
+
+.formLabel {
+    padding: 30px;
+}
+
+.input {
+    height: 30px;
+    width: 100%;
+    
+}
+
+.btn {  
+    display: inline-block;
+    margin-top: 40px; 
+    margin-left: 25%;
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 25%;
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;    
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.message {
+display: inline-block;
+    margin:  0 auto;
+    text-align: left;
+    padding-left: 10px;
+    width: 50%;
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px;
+    background-color: whitesmoke;
+    color:  #2a4073;
+}
+
+.submitBtn {
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+.submitBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
