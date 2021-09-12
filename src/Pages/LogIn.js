@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useContext } from "react";
 import { AuthContext } from '../Config/AuthService'
-import style from '../style.css'
+
 
 import { Link, Redirect } from 'react-router-dom'
 import firebase from '../Config/firebase'
